@@ -1,0 +1,133 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    margin-top: 30px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+span {
+    display: inline-block;
+    font-weight: bold;
+    text-shadow: 
+      0 0 5px #fff, 
+      0 0 10px #fff, 
+      0 0 20px #ff0080, 
+      0 0 30px #ff0080, 
+      0 0 40px #ff0080, 
+      0 0 50px #ff0080, 
+      0 0 60px #ff0080;
+    animation: neonRainbow 2s infinite;
+}
+
+@keyframes neonRainbow {
+    0% { color: red; text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red; }
+    14% { color: orange; text-shadow: 0 0 10px orange, 0 0 20px orange, 0 0 30px orange, 0 0 40px orange; }
+    28% { color: yellow; text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow, 0 0 40px yellow; }
+    42% { color: green; text-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green, 0 0 40px green; }
+    57% { color: blue; text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue; }
+    71% { color: indigo; text-shadow: 0 0 10px indigo, 0 0 20px indigo, 0 0 30px indigo, 0 0 40px indigo; }
+    85% { color: violet; text-shadow: 0 0 10px violet, 0 0 20px violet, 0 0 30px violet, 0 0 40px violet; }
+    100% { color: red; text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red; }
+}
+
+.reset {
+    width: 200px;
+    height: 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background: #1f3540;
+    font-size: 20px;
+    color: #26ffcb;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.boxes {
+    display: flex;
+    height: 120px;
+    width: 120px;
+    background: #1f3540;
+    border: 3px solid #0f1b21;
+    border-radius: 12px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.board {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    gap: 10px;
+}
+
+.boxes img {
+    margin: auto;
+    height: 70px;
+    width: 70px;
+}
+
+.title img {
+    padding: 10px;
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .reset {
+        width: 180px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .boxes {
+        height: 100px;
+        width: 100px;
+    }
+
+    .boxes img {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .reset {
+        width: 160px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .boxes {
+        height: 80px;
+        width: 80px;
+    }
+
+    .boxes img {
+        height: 50px;
+        width: 50px;
+    }
+}
