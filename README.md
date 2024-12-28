@@ -1,5 +1,5 @@
 
-# Tic Tac Toe 
+# Tic Tac Toe Game
 
 This repository contains a minimal setup to get React working in Vite with HMR (Hot Module Replacement) and some ESLint rules. It provides a basic Tic Tac Toe game built using React and Vite.
 
