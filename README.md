@@ -1,8 +1,17 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Tic Tac Toe 
 
-Currently, two official plugins are available:
+This repository contains a minimal setup to get React working in Vite with HMR (Hot Module Replacement) and some ESLint rules. It provides a basic Tic Tac Toe game built using React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Main Function Points
+* Provides a minimal setup to get React working in Vite with HMR (Hot Module Replacement)
+* Includes some ESLint rules for code quality
+* Implements a basic Tic Tac Toe game using React and Vite
+ 
+## Technology Stack
+* React
+* Vite
+* JavaScript
+* CSS
+* HTML
